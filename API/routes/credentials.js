@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const credentialsController = require('../controllers/credential');
+const credentialsController = require('../controllers/credentials');
 
 router.get('/', credentialsController.get_credentials);
 
